@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/clouds"
+    tools:context=".ImageConvertorActivity">
+
+
+    <ImageView
+        android:id="@+id/selectedImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image_placeholder" />
+
+    <Button
+        android:id="@+id/btnSelectImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/emerald"
+        android:padding="12dp"
+        android:text="@string/select_image"
+        android:textColor="@color/black"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/selectedImage2"
+        app:layout_constraintStart_toStartOf="@+id/selectedImage2"
+        app:layout_constraintTop_toBottomOf="@+id/selectedImage2" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSelectImage2">
+
+        <Button
+            android:id="@+id/btnJpeg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:backgroundTint="@color/emerald"
+            android:padding="12dp"
+            android:text="@string/convert_jpeg"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp" />
+
+        <Button
+            android:id="@+id/btnPng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:backgroundTint="@color/emerald"
+            android:padding="12dp"
+            android:text="@string/convert_png"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp" />
+
+        <Button
+            android:id="@+id/btnWebp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:backgroundTint="@color/emerald"
+            android:padding="12dp"
+            android:text="@string/convert_webp"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp" />
+
+        <Button
+            android:id="@+id/btnWebpLossy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:backgroundTint="@color/emerald"
+            android:padding="12dp"
+            android:text="@string/convert_webp_lossless"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp" />
+
+        <Button
+            android:id="@+id/btnWebpLossless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:backgroundTint="@color/emerald"
+            android:padding="12dp"
+            android:text="@string/convert_webp_lossy"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

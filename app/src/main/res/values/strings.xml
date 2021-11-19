@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ScanX Demo</string>
+    <string name="image_to_pdf">Image to Pdf</string>
+    <string name="image_reducer">Image Reducer</string>
+    <string name="image_type">Image Type Convertor</string>
+    <string name="select_image">Select Image</string>
+    <string name="convert_pdf">Convert To Pdf</string>
+    <string name="reduce_image">Reduce Image</string>
+    <string name="select_quality">Select Image Quality</string>
+    <string name="percent">100%</string>
+    <string name="convert_jpeg">Convert To JPEG</string>
+    <string name="convert_png">Convert To PNG</string>
+    <string name="convert_webp">Convert To Webp</string>
+    <string name="convert_webp_lossy">Convert To Webp Lossy</string>
+    <string name="convert_webp_lossless">Convert To Webp Lossless</string>
+
+</resources>
